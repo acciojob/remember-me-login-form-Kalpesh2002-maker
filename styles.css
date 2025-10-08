@@ -1,1 +1,81 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+  body {
+      font-family: Arial, sans-serif;
+      background: #f3f6ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+#loginForm{
+	text-align: start; 
+}
+    .login-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 320px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    label {
+    
+     
+		
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #555;
+    }
+
+    input[type="checkbox"] {
+      
+    }
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* spacing between buttons */
+  margin-top: 15px;
+}
+
+input[type="submit"],
+button {
+  flex: 1;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+#submit:hover {
+  background-color: #0056b3;
+}
+
+#existing {
+  display: block; /* hidden initially */
+  background-color: #28a745;
+}
+
+#existing:hover {
+  background-color: #1f7d35;
+}
